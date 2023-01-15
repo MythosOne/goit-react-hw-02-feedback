@@ -3,7 +3,7 @@ import Statistics from './Statistics';
 import FeedbackOptions from './FeedbackOptions';
 import Section from './Section';
 import Notification from './Notification';
-// import { Fragment, Section, FeedbackOptions, Notification, Statistics } from './App.Styled';
+import { Fragment, Section, FeedbackOptions, Notification, Statistics } from './App.Styled';
 export class App extends Component {
     state = {
         good: 0,
