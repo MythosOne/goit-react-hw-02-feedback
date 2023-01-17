@@ -17,7 +17,6 @@ export const BlockButton = styled.div`
 display: flex;
 justify-content: center;
 gap: 10px;
-
 `;
 
 export const FeedbackButton = styled.button`
