@@ -46,15 +46,3 @@ list-style: none;
 font-size: 18px;
 font-weight: 600;
 `;
-
-
-
-// element.style {
-//     width: 240px;
-//     margin: 0 auto;
-//     border: 1px solid;
-//     border-radius: 4px;
-// }
-
-// , Section, FeedbackOptions, Notification, Statistics
-// import { StatSection, Title, StatList } from './Statistics.styled';
