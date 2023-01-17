@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { NotificationTitle } from './App.styled';
 
 
 const Notification = ({ message }) => {
     return (
         <>
-            <p>{message}</p>
+            <NotificationTitle>{message}</NotificationTitle>
         </>
     )
 };

@@ -1,17 +1,16 @@
 import React from 'react';
-import { nanoid } from 'nanoid'
 import PropTypes from 'prop-types';
-
+import { BlockButton, FeedbackButton } from './App.styled';
 
 const FeedbackOptions = ({options, onLeaveFeedback}) => {
     return (
-        <>
+        <BlockButton>
             {options.map((option) => (
-            <button  key={nanoid()} type='button' name={option} onClick={onLeaveFeedback}>
+            <FeedbackButton  key={option} type='button' name={option} onClick={() => onLeaveFeedback(option)}>
                 {option}
-            </button>
+            </FeedbackButton>
         ))}
-        </>
+        </BlockButton>
         
     );
 };
