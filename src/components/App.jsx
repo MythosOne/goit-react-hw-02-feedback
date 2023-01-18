@@ -3,7 +3,7 @@ import Statistics from './Statistics';
 import FeedbackOptions from './FeedbackOptions';
 import Section from './Section';
 import Notification from './Notification';
-import { Container } from './App.Styled.js';
+import { Container } from './App.styled.js';
 export class App extends Component {
     state = {
         good: 0,

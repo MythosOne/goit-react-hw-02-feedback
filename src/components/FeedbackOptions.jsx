@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { BlockButton, FeedbackButton } from './App.Styled.js';
+import { BlockButton, FeedbackButton } from './App.styled.js';
 
 const FeedbackOptions = ({options, onLeaveFeedback}) => {
     return (
