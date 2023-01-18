@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { SectionTitle } from './App.styled';
+import { SectionTitle } from './App.styled.js';
 
 export const Section = ({title,children}) => { 
     return (
