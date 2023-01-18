@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { NotificationTitle } from './App.styled.js';
+import { NotificationTitle } from './App.Styled.js';
 
 
 const Notification = ({ message }) => {
